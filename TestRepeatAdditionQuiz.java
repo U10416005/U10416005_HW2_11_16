@@ -14,6 +14,7 @@ public class TestRepeatAdditionQuiz{
 			}
 			else{
 				System.out.println("Wrong answer. Try again. What is 9*8? ");
+				og.addList();
 				og.setAns(input.nextInt());
 			}
 		}
