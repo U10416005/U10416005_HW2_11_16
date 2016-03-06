@@ -10,5 +10,22 @@ public class RepeatAdditionQuiz{
 		this.b = b;
 		this.c = c;
 	}
-	
+	public int getA(int a){
+		return a;
+	}
+	public int getB(int b){
+		return b;
+	}
+	public int getAns(int ans){
+		return ans;
+	}
+	public void setA(){
+		this.a = a;
+	}
+	public void setB(){
+		this.b = b;
+	}
+	public void setAns(){
+		this.ans = ans;
+	}
 }
