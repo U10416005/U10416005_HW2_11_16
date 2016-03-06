@@ -12,17 +12,17 @@ public class RepeatAdditionQuiz{
 		list.add(a);
 		list.add(ans);
 	}
-	public int getA(int a){
+	public int getA(){
 		return a;
 	}
-	public int getAns(int ans){
+	public int getAns(){
 		return ans;
 	}
-	public void setA(){
+	public void setA(int a){
 		this.a = a;
 		list.add(a);
 	}
-	public void setAns(){
+	public void setAns(int ans){
 		this.ans = ans;
 		list.add(ans);
 	}
