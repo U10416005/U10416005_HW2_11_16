@@ -9,8 +9,6 @@ public class RepeatAdditionQuiz{
 	public RepeatAdditionQuiz(int a,int ans){
 		this.a = a;
 		this.ans = ans;
-		list.add(a);
-		list.add(ans);
 	}
 	public int getA(){
 		return a;
@@ -20,10 +18,11 @@ public class RepeatAdditionQuiz{
 	}
 	public void setA(int a){
 		this.a = a;
-		list.add(a);
 	}
 	public void setAns(int ans){
 		this.ans = ans;
+	}
+	public void addList(){
 		list.add(ans);
 	}
 	public boolean contains(){
